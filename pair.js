@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "QUEEN-ELISA~" + string_session;
+                        let md = "𝙽𝙰𝙳𝙴𝙴𝙽-𝙼𝙳=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there ! 👋🏻* 
 
-> Do not share your session id with anyone.
+🚀 *𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗬* ✅
 
- *Thanks for using Queen Elisa 🚩* 
+> 🚫ᴅᴏɴ'ᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ!!!
 
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P
+✨ *Gɪᴠᴇ ᴀ Sᴛᴀʀ ᴛᴏ Rᴇᴘᴏ Fᴏʀ Cᴏᴜʀᴀɢᴇ* 🌟
 
-Dont forget to fork the repo ⬇️
+🪀 *Fᴏʟʟᴏᴡ Wʜᴀᴛꜱᴀᴘᴘ Cʜᴀɴɴᴇʟ* 🪀
+https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 
-https://github.com/ayanmdoz/QUEEN-ELISA
+👨🏻‍💻 *Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ* 👨🏻‍💻
+https://wa.me/94711451319
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʏᴀɴ ꜱᴇᴠᴇɴ ᴍᴏᴅᴢ™*`; 
+🎯 *Nα∂єєη м∂ ву Nα∂єєη Pσσяηα* 🎯`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P",
+title: "NADEEN-MD",
+thumbnailUrl: "https://files.catbox.moe/79bgkk.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying Queen Elisa*\n\n ◦ *Github:* https://github.com/Ayanmdoz/QUEEN-ELISA`;
+                            let desc = `*❗ Don't Share with anyone this code use for deploying NADEEN-MD*\n\n ◦ *Github:* https://github.com/NADEENbotx/NADEEN-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P",
+title: "NADEEN-MD",
+thumbnailUrl: "https://files.catbox.moe/79bgkk.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -126,7 +126,7 @@ showAdAttribution: true
                     await delay(10);
                     await sock.ws.close();
                     await removeFile('./temp/' + id);
-                    console.log(`👤 ${sock.user.id} QUEEEEEENN ELISAAAAAAAAA...`);
+                    console.log(`👤 ${sock.user.id} NADEENNN...`);
                     await delay(10);
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
