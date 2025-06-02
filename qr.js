@@ -70,30 +70,29 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "QUEEN-ELISA~" + string_session;
+                        let md = "𝙽𝙰𝙳𝙴𝙴𝙽-𝙼𝙳=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there Queen Elisa User! 👋🏻* 
+                        let desc = `🚀 *𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗬* ✅
 
-> Do not share your session id with anyone.
+> 🚫ᴅᴏɴ'ᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ!!!
 
- *Thanks for using Queen Elisa 🚩* 
+✨ *Gɪᴠᴇ ᴀ Sᴛᴀʀ ᴛᴏ Rᴇᴘᴏ Fᴏʀ Cᴏᴜʀᴀɢᴇ* 🌟
+https://github.com/Nadeenpoorna-app/NADEEN-MD
 
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P
+👨🏻‍💻 *Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ* 👨🏻‍💻
+https://wa.me/94711451319
 
-Dont forget to fork the repo ⬇️
+🎥 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 💻
+https://youtube.com/@NADEEN-MD
 
-https://github.com/Ayanmdoz/QUEEN-ELISA 
-
-> *_© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʏᴀɴ ꜱᴇᴠᴇɴ ᴍᴏᴅᴢ_*`;
+🎯 *Nα∂єєη м∂ ву Nα∂єєη Pσσяηα* 🎯`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT 2025",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P",
+title: "NADEEN-MD WHATSAPP BOT",
+thumbnailUrl: "https://files.catbox.moe/79bgkk.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -102,28 +101,27 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there Queen Elisa User! 👋🏻* 
+                            let desc = `🚀 *𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗬* ✅
 
-> Do not share your session id with anyone.
+> 🚫ᴅᴏɴ'ᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ!!!
 
- *Thanks for using QUEEN ELISA 🚩* 
+✨ *Gɪᴠᴇ ᴀ Sᴛᴀʀ ᴛᴏ Rᴇᴘᴏ Fᴏʀ Cᴏᴜʀᴀɢᴇ* 🌟
+https://github.com/Nadeenpoorna-app/NADEEN-MD
 
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P
+👨🏻‍💻 *Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ* 👨🏻‍💻
+https://wa.me/94711451319
 
-Dont forget to fork the repo ⬇️
+🎥 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 💻
+https://youtube.com/@NADEEN-MD
 
-https://github.com/Ayanmdoz/QUEEN-ELISA 
-
-> *_© Powered BY ᴀʏᴀɴ ꜱᴇᴠᴇɴ ᴍᴏᴅᴢ_*`;
+🎯 *Nα∂єєη м∂ ву Nα∂єєη Pσσяηα* 🎯`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT 2025",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P",
+title: "NADEEN-MD WHATSAPP BOT",
+thumbnailUrl: "https://files.catbox.moe/79bgkk.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -135,7 +133,7 @@ showAdAttribution: true
                     await delay(10);
                     await sock.ws.close();
                     await removeFile('./temp/' + id);
-                    console.log(`👤 ${sock.user.id} QUEEEEENNNN ELISAAAAAA...`);
+                    console.log(`👤 ${sock.user.id} NADEENNNNNNN...`);
                     await delay(10);
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
@@ -154,7 +152,7 @@ showAdAttribution: true
     await GIFTED_MD_PAIR_CODE();
 });
 setInterval(() => {
-    console.log("☘️ Elisaaaaaaaaaaaaaa...");
+    console.log("☘️ NADEEEENNN...");
     process.exit();
 }, 180000); //30min
 module.exports = router;
